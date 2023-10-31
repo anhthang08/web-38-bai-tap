@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid; 
+    grid-gap: 30px 60px;
+    grid-template-columns:290px 290px 290px ;
+    justify-content: center;
+    background-color: #bcc2be;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.grid-item {
+    background-color:#f8f9fa;
+    height: 290px;
+}
+.grid-item img {
+    height: 70%;
+    width: 290px;
+}
+.course-description {
+    color: #757575;
+    font-size: .9rem;
+    font-weight: lighter;
+    width: 100%;
+    
+}
+.course-info {
+    display: flex;
+    
+}
+.course-info i {
+    font-size: 10px;
+    align-items: center;
+}
