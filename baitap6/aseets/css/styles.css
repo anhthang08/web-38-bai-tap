@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 649px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    
+}
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+   
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.product-left {
+    width: 30%;
+    height: 649px;
+    background-color: #ffffff;
+    
+    
+}
+.product-left h2 {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+
+}
+.product-left input {
+    width: 271px;
+    height: 56px;
+    font-size: 20px;
+    padding-left: 16px;
+    margin-top: 30px;
+}
+.product-left p {
+    margin-top: 30px;
+}
+.product-left .number1 {
+    width: 40px;
+   display: flex;
+   align-items: center;
+}
+.product-left .number1 label {
+    padding-left: 10px;
+}
+.product-right {
+    width: 30%;
+    height: 649px;
+    background-color: black;
+    
+}
